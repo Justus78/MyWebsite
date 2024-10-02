@@ -31,28 +31,40 @@
     </style>    
   </head>
 
-  <body>
-    
-  <header>
-    <!-- placeholder for navbar that is dynamically loaded with javascript -->
-    <div id="navbar"></div>
-    
-  </header>
+  <body class="d-flex flex-column min-vh-100">
 
-  <main>
+    <header>
+        <div id="navbar"></div>
+    </header>
     
-
-  </main>
-
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-end mb-1">
-        <a href="#">Back to top</a>
-      </p>
-      <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-      <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
-    </div>
-  </footer>
+    <main class="flex-fill text-center">
+        <h1>Greeneville Walks website</h1>
+    
+        <div class="container my-4">
+            <p>
+                 This website was a school project for Dr. Griffin at Walter State Community College.
+                 The main purpose of the site was to showcase student's work in Botany in the WSCC
+                 Herbarium and Symposium. The website also provides information about common trees and 
+                 shrubs found around the walking trails in Greeneville Tennessee.
+            </p>
+            <p>Technologies used in development:</p>
+            <ul class="list-unstyled">
+                <li>VS Code IDE</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>PHPS</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+    
+        <div class="d-inline-block">
+          <img class="img-fluid mb-3 me-3" height="500px" width="500px" src="/Media/Greeneville-Walks/gw1.jpg" alt="Screenshot of card database">
+          <img class="img-fluid mb-3 me-3" height="500px" width="500px" src="/Media/Greeneville-Walks/gw2.jpg" alt="User interface showing card details">
+          <img class="img-fluid mb-3" height="500px" width="500px" src="/Media/Greeneville-Walks/gw3.jpg" alt="Overview of available formats">
+        </div>
+    </main>
+    
+    <footer id="footer"></footer>
+    
 
   <!-- Bootstrap JS and bundle for enabling components like the navbar toggle -->
   <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
